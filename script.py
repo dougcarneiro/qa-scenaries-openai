@@ -15,7 +15,7 @@ USER_SAMPLE_PATH = 'context/user_input_sample.txt'
 
 def parse_args():
     parser = argparse.ArgumentParser(
-        description='Script para gerar cenários de testes utilizando a IA da OpeinAI')
+        description='Script para gerar cenários de testes utilizando a IA da OpenAI')
     parser.add_argument('--input_file', '-i', type=str,
                         help='Caminho do arquivo de input contendo os detalhes da task')
     parser.add_argument('--output_dir', '-o', type=str,
