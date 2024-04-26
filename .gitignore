@@ -1,0 +1,16 @@
+venv/
+env/
+__pycache__/
+*.pyc
+
+done/
+todo/
+
+geckodriver.log
+settings.json
+logs/*.csv
+logs/error_log.txt
+.env
+.vscode
+.tools-versions
+.tool-versions
