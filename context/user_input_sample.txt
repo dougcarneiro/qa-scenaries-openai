@@ -1,0 +1,17 @@
+{title}: `Como admin, espero conseguir consultar um pacote básico de relatórios de avaliações dentro do módulo de desempenho no Admin2`
+{URL}: `https://app.clickup.com/t/3018923/QA-5126`
+
+Critério de aceitação: A partir da tela de detalhes de um ciclo de avaliação, o admin deve ver um botão "Relatórios" que leva ele para a tela de geração de informações e relatórios. A tela deve apresentar os contadores do total de avaliações criadas, o total de avaliações respondidas e o percentual de adesão (que é o total de respostas dividido pelo total de avaliações criadas) até o momento da consulta em quadros e ter um menu de seleção múltipla com as seguintes opções de relatório para que ele solicite a geração de planilhas que devem ser processadas de forma assíncrona:
+
+Relatório de Status da Avaliação - Relatório que já existe na plataforma (levar ele do nosso módulo de relatórios atual para dentro do módulo de avaliações).
+Relatório de respostas de uma avaliação: Nome, Username, Departamento, Cargo, Nome do formulário de avaliação, Tipo de avaliação, Competência, Pergunta, Resposta à pergunta.
+Relatório de Notas de uma Avaliação: Nome do usuário, Username, Departamento, Cargo, Líder, Nota da autoavaliação, Nota do gestor.
+Relatório 9Box: Nome, Username, Departamento, Ciclo, Nota 1, Nota 2, Quadrante Nome Quadrante Valor, Justificativa, Observações.
+Relatório de Respostas de Feedback: Feedback por, Username Cargo, Departamento, Feedback de, Resposta do líder, Avaliação, Pergunta, Resposta, Data de início, Data da finalização.
+Relatório de acompanhamento do PDI: Liderado, Username Liderado, Líder, Username Lider, Ação, Status Atual, Competência, Lacuna, Título do modelo de aprendizado, Valor do modelo de aprendizado, Prazo (semanas),  Atrasado, Data de início, Data da finalização, Tipo de atualização, Status na atualização, Quem fez a atualização, Descrição da atualização, Data da atualização, Liderado ativo, Líder ativo.
+
+Ao selecionar o relatório que quer receber, o admin deve visualizar o modal de confirmação com o texto: O relatório "NAME_REPORT.csv" será enviado por email para "email@admin.com" com a confirmação do seu email.
+
+Apenas um relatório de cada natureza pode ser solicitado por vez, mas, múltiplos relatórios distintos podem ser solicitados ao mesmo tempo.
+
+Enquanto os relatórios estão em processamento, o admin deve visualizar o banner com a informação da fila de processamento dos relatórios.
