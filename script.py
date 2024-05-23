@@ -46,7 +46,7 @@ def get_input_context(file_path):
     return task_title, input_context
 
 
-def get_file_name(task_title, output_dir):
+def get_file_path(task_title, output_dir):
     cwd_path = os.getcwd()
 
     file_path = f"{output_dir}/{task_title}"
@@ -62,7 +62,7 @@ def get_file_name(task_title, output_dir):
 
 
 def create_md(task_title, output_dir):
-    file_path = get_file_name(task_title, output_dir)
+    file_path = get_file_path(task_title, output_dir)
     was_created = False
 
     try:
